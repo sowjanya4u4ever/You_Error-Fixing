@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNT Health Center</title>
+  <style>
+    body {
+      background-color: green;
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+    
+    .doctor-details {
+      margin-top: 50px;
+      padding: 20px;
+      color: white;
+    }
+    
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    form {
+      margin-top: 50px;
+      padding: 20px;
+      color: white;
+    }
+    
+    form h2 {
+      margin-bottom: 20px;
+    }
+    
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    
+    input[type="submit"] {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UNT Health Center</h1>
+    <nav>
+      <ul>
+        <li>Doctors</li>
+        <li>Department</li>
+        <li>Contact</li>
+        <li>Sign In</li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="doctor-details">
+    <h2>Renowned Doctors</h2>
+    <ul>
+      <li>Dr. Joseph Livingston (Cardiologist)</li>
+      <li>Dr. Jane Smith (Gynaecologist)</li>
+      <li>Dr. Diana Joseph (Orthodontics)</li>
+    </ul>
+    <p>Here you can provide more specific details about each doctor, their qualifications, achievements, and any other relevant information.</p>
+  </div>
+  
+  <form>
+    <h2>Appointment Request</h2>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" placeholder="Your Name">
+    <label for="email">Email Address:</label>
+    <input type="text" id="email" placeholder="Email Address">
+    <label for="message">Message:</label>
+    <textarea id="message" placeholder="Message"></textarea>
+    <input type="submit" value="Submit">
+  </form>
+  
+  <footer>
+    &copy; 2024 UNT Health Center. All rights reserved.
+  </footer>
+</body>
+</html>
